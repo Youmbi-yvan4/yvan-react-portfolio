@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Youmbi Yvan
  * @description Use this script to create new articles.
  *
  * @usage
