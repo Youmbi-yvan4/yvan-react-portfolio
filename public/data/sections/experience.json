@@ -1,0 +1,142 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Professional",
+                "title_long": "{{Experience}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Expérience",
+                "title_long": "{{Professionnelle}}"
+            }
+        }
+    },
+    "articles": [{
+    "id": 1,
+    "component": "ArticleTimeline",
+    "locales": {
+        "en": {
+            "title": "My {{Experience}}"
+        },
+        "fr": {
+            "title": "Mon {{Expérience}}"
+        }
+    },
+    "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "/images/content/API2.png",
+            "faIcon": "fa-solid fa-code",
+            "faIconColors": {"bg": "#ffffff", "bgLight": "#ffffff", "fill": "#FFF", "fillLight": "#FFF"},
+            "dateStart": {"year": 2025, "month": 5},
+            "dateEnd": {"year": 2025, "month": 8},
+            "locales": {
+                "en": {
+                    "title": "Software Developer {{Intern}}",
+                    "province": "Centre",
+                    "country": "Cameroon",
+                    "institution": "Agence de Promotion des Investissements",
+                    "text": "Development of a web application for editorial workflow management within an Agile/Scrum team. Key achievements:",
+                    "list": [
+                        "Modeled and developed a web application reducing publication time using UML architecture",
+                        "Designed UX/UI interfaces with Adobe XD, improving user experience with +25% satisfaction rate",
+                        "Full-stack development with Angular and Spring Boot including role management and MySQL database",
+                        "Implemented CI/CD on GitLab with Docker deployment and automated testing (JUnit, Postman)",
+                        "Application supporting up to 50 concurrent users with robust content validation system"
+                    ],
+                    "tags": [
+                        "Angular",
+                        "Spring Boot",
+                        "Docker",
+                        "CI/CD",
+                        "MySQL",
+                        "Agile/Scrum"
+                    ]
+                },
+                "fr": {
+                    "title": "Développeur Logiciel {{Stagiaire}}",
+                    "province": "Centre",
+                    "country": "Cameroun",
+                    "institution": "Agence de Promotion des Investissements",
+                    "text": "Développement d'une application web de gestion de workflow éditorial au sein d'une équipe Agile/Scrum. Réalisations principales :",
+                    "list": [
+                        "Modélisation et développement d'une application web réduisant le temps de publication grâce à une architecture UML",
+                        "Conception UX/UI sur Adobe XD, améliorant l'expérience utilisateur avec +25% de satisfaction",
+                        "Développement full-stack en Angular et Spring Boot avec gestion des rôles et base MySQL",
+                        "Mise en œuvre CI/CD sur GitLab avec déploiement Docker et tests automatisés (JUnit, Postman)",
+                        "Application supportant jusqu'à 50 utilisateurs avec système robuste de validation de contenu"
+                    ],
+                    "tags": [
+                        "Angular",
+                        "Spring Boot",
+                        "Docker",
+                        "CI/CD",
+                        "MySQL",
+                        "Agile/Scrum"
+                    ]
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "/images/content/ins.png",
+            "faIcon": "fa-solid fa-chart-bar",
+            "faIconColors": {"bg": "#ffffff", "bgLight": "#3689ad", "fill": "#FFF", "fillLight": "#FFF"},
+            "dateStart": {"year": 2024, "month": 6},
+            "dateEnd": {"year": 2024, "month": 9},
+            "locales": {
+                "en": {
+                    "title": "Full-Stack {{Developer}}",
+                    "province": "Centre",
+                    "country": "Cameroon",
+                    "institution": "Institut National de la Statistique",
+                    "text": "Development of data visualization and analysis features for enterprise data within an Agile team. Key contributions:",
+                    "list": [
+                        "Developed data visualization and analysis features for enterprise data with Spring Boot backend",
+                        "Created interactive management tools in TypeScript for automated calculation of performance metrics",
+                        "Worked in Agile/Scrum methodology for data processing and aggregation systems",
+                        "Implemented data analysis algorithms and automated reporting functionalities",
+                        "Collaborated on data aggregation and processing backend systems"
+                    ],
+                    "tags": [
+                        "TypeScript",
+                        "Spring Boot",
+                        "Data Visualization",
+                        "Data Analysis",
+                        "Agile/Scrum"
+                    ]
+                },
+                "fr": {
+                    "title": "Développeur {{Full-Stack}}",
+                    "province": "Centre",
+                    "country": "Cameroun",
+                    "institution": "Institut National de la Statistique",
+                    "text": "Développement de fonctionnalités de visualisation et d'analyse de données d'entreprises au sein d'une équipe Agile. Contributions principales :",
+                    "list": [
+                        "Développement de fonctionnalités de visualisation et d'analyse de données avec backend Spring Boot",
+                        "Conception d'outils de gestion interactifs en TypeScript pour le calcul automatisé de métriques",
+                        "Travail en méthodologie Agile/Scrum pour les systèmes de traitement et d'agrégation de données",
+                        "Implémentation d'algorithmes d'analyse de données et fonctionnalités de reporting automatisé",
+                        "Collaboration sur les systèmes backend d'agrégation et de traitement de données"
+                    ],
+                    "tags": [
+                        "TypeScript",
+                        "Spring Boot",
+                        "Visualisation de Données",
+                        "Analyse de Données",
+                        "Agile/Scrum"
+                    ]
+                }
+            }
+        }
+    ]
+}]
+}
