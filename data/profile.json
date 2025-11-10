@@ -1,0 +1,34 @@
+{
+    "name": "Ngongang Youmbi Yvan",
+    "profilePictureUrl": "images/content/pfp.png",
+    "resumePdfUrl": "files/resume.pdf",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+    "locales": {
+        "en": {
+            "localized_name": "",
+            "localized_name_stylized": "<strong>Ngongang Youmbi {{Yvan}}</strong>",
+            "status_message_available_for_freelance": "Available for an internship!",
+            "roles": [
+                "Software Engineer",
+                "Full stack Developer",
+                "Technology Enthusiast"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        },
+        "fr": {
+            "localized_name": "",
+            "localized_name_stylized": "<strong>Ngongang Youmbi {{Yvan}}</strong>",
+            "status_message_available_for_freelance": "Disponible pour un stage !",
+            "roles": [
+                "Ingénieur Logiciel",
+                "Développeur Full Stack",
+                "Passionné par la Technologie"
+            ],
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}

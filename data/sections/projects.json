@@ -1,0 +1,354 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "My Projects",
+                "title_long": "{{Portfolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Mes Projets",
+                "title_long": "{{Portfolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": "My {{Projects}}",
+                    "category_mobile": "Mobile",
+                    "category_web": "Web App",
+                    "category_other": "Other",
+                    "category_all": "All"
+                },
+                "fr": {
+                    "title": "Mes {{Projets}}",
+                    "category_mobile": "Mobile",
+                    "category_web": "App Web",
+                    "category_other": "Autres",
+                    "category_all": "Tous"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_mobile",
+                    "category_web",
+                    "category_other"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "fill": "white"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://gitlab.com/transvesral-project_group-1/isi4-transversalproject-gp1",
+                                "tooltipString": "Voir le code source",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/content/crm1.png",
+                            "images/content/crm2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Student Enrollment CRM",
+                            "text": "Comprehensive student management system streamlining the enrollment pipeline from application to admission. Supports multi-step workflows, document management, and real-time status tracking across web and mobile platforms.",
+                            "tags": [
+                                "Ionic",
+                                "Angular",
+                                "Spring Boot",
+                                "MySQL",
+                                "Cloud",
+                                "CRM"
+                            ]
+                        },
+                        "fr": {
+                            "title": "CRM d'Inscription Étudiante",
+                            "text": "Système complet de gestion étudiante optimisant le processus d'inscription de la candidature à l'admission. Gère les workflows multi-étapes, la gestion documentaire et le suivi en temps réel sur web et mobile.",
+                            "tags": [
+                                "Ionic",
+                                "Angular",
+                                "Spring Boot",
+                                "MySQL",
+                                "Cloud",
+                                "CRM"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_other",
+                    "img": "",
+                    "faIcon": "fa-solid fa-magnifying-glass",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "fill": "white"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://plagiarismhecker.vercel.app/",
+                                "tooltipString": "Voir la démo",
+                                "faIcon": "fa-solid fa-external-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/content/plagiat2.png",
+                            "images/content/plagiat1.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Advanced Plagiarism Detector",
+                            "text": "High-performance plagiarism detection system for multi-document similarity analysis. Implements optimized algorithms with performance profiling using Pylnstrument for accurate and efficient plagiarism detection.",
+                            "tags": [
+                                "Flask",
+                                "Python",
+                                "Pylnstrument",
+                                "Algorithms",
+                                "Performance",
+                                "Analysis"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Détecteur de Plagiat Avancé",
+                            "text": "Système haute performance de détection de plagiat pour l'analyse de similarité multi-documents. Algorithmes optimisés avec profilage des performances via Pylnstrument pour une détection précise et efficace.",
+                            "tags": [
+                                "Flask",
+                                "Python",
+                                "Pylnstrument",
+                                "Algorithmes",
+                                "Performance",
+                                "Analyse"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_mobile",
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-pie",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "fill": "white"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Youmbi-yvan4/login-signup-ionic/tree/master",
+                                "tooltipString": "Voir le code source",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/content/money1.jpg",
+                            "images/content/money2.jpg"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Smart Money Tracker",
+                            "text": "Comprehensive expense tracking application with advanced analytics on spending habits and budget management. Features interactive charts, expense categorization, and predictive budget planning.",
+                            "tags": [
+                                "Ionic",
+                                "Java",
+                                "Analytics",
+                                "Charts",
+                                "Budget",
+                                "Finance"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Suivi Financier Intelligent",
+                            "text": "Application complète de suivi de dépenses avec analytique avancée des habitudes de consommation et gestion de budget. Graphiques interactifs, catégorisation des dépenses et planification budgétaire prédictive.",
+                            "tags": [
+                                "Ionic",
+                                "Java",
+                                "Analytique",
+                                "Graphiques",
+                                "Budget",
+                                "Finance"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "fill": "white"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Youmbi-yvan4/Archi-web-Project",
+                                "tooltipString": "Voir le code source",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/content/artist2.png",
+                            "images/content/artist11.png",
+                            "images/content/artist3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Artist Management System",
+                            "text": "A full-stack platform connecting artists with their audience. Admins manage artists via web dashboard while users rate and discover artists through a mobile app. Features real-time notifications and analytics.",
+                            "tags": [
+                                "Node.js",
+                                "Vercel",
+                                "Cloud"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Système de Gestion d'Artistes",
+                            "text": "Plateforme full-stack connectant les artistes à leur public. Les administrateurs gèrent les artistes via un dashboard web tandis que les utilisateurs notent et découvrent les artistes via une application mobile. Fonctionnalités de notifications en temps réel et d'analytique.",
+                            "tags": [
+                                "Node.js",
+                                "Vercel",
+                                "Cloud"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_mobile",
+                    "img": "",
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "fill": "white"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Frederic311/isi4-dev-mobile-gpe2-personal_fitness_app",
+                                "tooltipString": "Voir le code source",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/content/fit1.jpg",
+                            "images/content/fit2.jpg",
+                            "images/content/fit3.jpg",
+                            "images/content/fit4.jpg",
+                            "images/content/fit5.jpg",
+                            "images/content/fit6.jpg"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fitness Coaching Platform",
+                            "text": "Interactive fitness app connecting users with certified coaches. Features video lessons, real-time workout tracking, progress analytics, and personalized training plans with live coach feedback.",
+                            "tags": [
+                                "Ionic",
+                                "Firebase",
+                                "SQLite",
+                                "Real-time",
+                                "Video",
+                                "Cloud"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Plateforme de Coaching Sportif",
+                            "text": "Application fitness interactive connectant les utilisateurs à des coachs certifiés. Cours vidéo, suivi d'entraînement en temps réel, analytique de progression et plans d'entraînement personnalisés avec feedback en direct.",
+                            "tags": [
+                                "Ionic",
+                                "Firebase",
+                                "SQLite",
+                                "Temps réel",
+                                "Vidéo",
+                                "Cloud"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-calendar-check",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "fill": "white"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://gitlab.com/gp23123508/appweb-events-management-gp2-project",
+                                "tooltipString": "Voir le code source",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/content/ems1.png",
+                            "images/content/ems2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Event Management System",
+                            "text": "Robust event scheduling platform for tracking events, tasks, and deadlines. Features calendar optimization, automated reminders, and conflict resolution to ensure efficient event planning and execution.",
+                            "tags": [
+                                "Thymeleaf",
+                                "Java",
+                                "Spring Boot",
+                                "Scheduling",
+                                "Optimization"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Système de Gestion d'Événements",
+                            "text": "Plateforme robuste de planification d'événements pour suivre les événements, tâches et délais. Fonctionnalités d'optimisation de calendrier, rappels automatisés et résolution de conflits pour une planification efficace.",
+                            "tags": [
+                                "Thymeleaf",
+                                "Java",
+                                "Spring Boot",
+                                "Planification",
+                                "Optimisation"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

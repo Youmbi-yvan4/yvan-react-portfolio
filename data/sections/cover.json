@@ -1,0 +1,411 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome !",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello.....",
+                "title_long": "I'm {{Youmbi Yvan}}"
+            },
+            "fr": {
+                "title_short": "Bienvenue !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Bonjour.....",
+                "title_long": "Je suis {{Youmbi Yvan}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "France",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "faIcon": "fa-solid fa-location-dot"
+                },
+                {
+                    "id": 2,
+                    "label": "LinkedIn",
+                    "link": {
+                        "href": "https://linkedin.com/in/ngongang-youmbi-yvan-460144308",
+                        "tooltipString": "connect_with_me"
+                    },
+                    "faIcon": "fa-brands fa-linkedin"
+                },
+                {
+                    "id": 3,
+                    "label": "Email",
+                    "link": {
+                        "href": "mailto:minatoyvan.04@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "faIcon": "fa-regular fa-envelope"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "{{A little bit}} about me..."
+                },
+                "fr": {
+                    "title": "{{Un petit peu}} sur moi..."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "/images/content/main2.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "I'm a {{<strong>curious and passionate problem-solver</strong>}} who finds joy in transforming complex challenges into {{<strong>elegant digital solutions</strong>}}.<br><br>With a blend of analytical thinking and creative approach, I thrive on understanding user needs and crafting {{<strong>intuitive experiences</strong>}} that make a real difference. I believe in clean code, thoughtful design, and continuous learning.<br><br>I'm currently seeking a {{<strong>6-month internship starting April 2026</strong>}} where I can contribute my energy, fresh perspectives, and dedication to meaningful projects that create impact!"
+                        },
+                        "fr": {
+                            "text": "Je suis un {{<strong>passionné résolveur de problèmes</strong>}} qui trouve son bonheur à transformer des défis complexes en {{<strong>solutions digitales élégantes</strong>}}.<br><br>Avec une approche alliant réflexion analytique et créativité, j'excelle à comprendre les besoins utilisateurs et à concevoir des {{<strong>expériences intuitives</strong>}} qui font la différence. Je crois au code propre, au design réfléchi et à l'apprentissage continu.<br><br>Je recherche actuellement un {{<strong>stage de 6 mois à partir d'avril 2026</strong>}} où je pourrai apporter mon énergie, mes perspectives nouvelles et mon engagement à des projets porteurs de sens !"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "Some {{testimonials}}"
+                },
+                "fr": {
+                    "title": "Quelques {{témoignages}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Onana Frederic Olivier",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/fredericonana/",
+                        "tooltipString": "connect_with_me"
+                    },
+                    "img": "/images/content/fred.jpg",
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software Engineering [[Student]]",
+                            "text": "Yvan's analytical mindset and quick learning ability made him an invaluable team member. His positive attitude and [[problem-solving skills]] stood out in every project."
+                        },
+                        "fr": {
+                            "title": "Étudiant en [[Génie Logiciel]]",
+                            "text": "L'esprit analytique et la rapidité d'apprentissage de Yvan en ont fait un membre d'équipe précieux. Son attitude positive et ses [[compétences en résolution de problèmes]] se démarquaient dans chaque projet."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Kamdem Guy Jordan",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/kamdem-guy-jordan-ab4a89315/",
+                        "tooltipString": "connect_with_me"
+                    },
+                    "img": "/images/content/guy.jpg",
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software Engineering [[Student]]",
+                            "text": "A collaborative team player with exceptional creativity. Yvan approaches challenges with [[impressive determination]] and always delivers innovative solutions."
+                        },
+                        "fr": {
+                            "title": "Étudiant en [[Génie Logiciel]]",
+                            "text": "Un collaborateur d'équipe avec une créativité exceptionnelle. Yvan aborde les défis avec [[une détermination remarquable]] et propose toujours des solutions innovantes."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Allabira Abdoul Salam",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/allabira-abdoul-salam-charafaddine-6b6655293/",
+                        "tooltipString": "connect_with_me"
+                    },
+                    "img": "/images/content/avdol.jpg",
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software Engineering [[Student]]",
+                            "text": "What sets Yvan apart is his ability to see the human behind the hardware. He builds solutions that don't just work technically, but [[feel right intuitively]] - a rare and valuable skill."
+                        },
+                        "fr": {
+                            "title": "Étudiant en [[Génie Logiciel]]",
+                            "text": "Ce qui distingue Yvan, c'est sa capacité à voir l'humain derrière la machine. Il construit des solutions qui ne fonctionnent pas juste techniquement, mais qui [[semblent justes intuitivement]] - une compétence rare et précieuse."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Ntankeu Agnes Carmela",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/ntankeu-agnes-carmela-b19173263/",
+                        "tooltipString": "connect_with_me"
+                    },
+                    "img": "/images/content/carmela.jpg",
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software Engineering [[Student]]",
+                            "text": "Yvan approaches coding like a composer approaches music - with both technical precision and creative flair. He doesn't just write code, he [[crafts digital symphonies]] that solve real problems elegantly."
+                        },
+                        "fr": {
+                            "title": "Étudiant en [[Génie Logiciel]]",
+                            "text": "Yvan aborde le code comme un compositeur aborde la musique - avec précision technique et créativité. Il n'écrit pas juste du code, il [[compose des symphonies digitales]] qui résolvent les problèmes avec élégance."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Limbaime Axel Jonas",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/axel-jonas-limbaime-595470318/",
+                        "tooltipString": "connect_with_me"
+                    },
+                    "img": "/images/content/axel.jpg",
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software Engineering [[Student]]",
+                            "text": "Working with Yvan feels like collaborating with someone from the future of tech. He brings [[fresh perspectives]] that challenge conventions and push the entire team to think bigger."
+                        },
+                        "fr": {
+                            "title": "Étudiant en [[Génie Logiciel]]",
+                            "text": "Travailler avec Yvan, c'est comme collaborer avec quelqu'un venu du futur de la tech. Il apporte des [[perspectives nouvelles]] qui défient les conventions et poussent toute l'équipe à penser plus grand."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {
+                    "title": "My {{interests}}"
+                },
+                "fr": {
+                    "title": "Mes {{centres d'intérêt}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-microchip",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "label": "",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Technology",
+                            "text": "Passionate about emerging technologies, open-source projects, and exploring new programming paradigms and tools."
+                        },
+                        "fr": {
+                            "title": "Technologie",
+                            "text": "Passionné par les technologies émergentes, les projets open-source et l'exploration de nouveaux paradigmes et outils de programmation."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-table-tennis-paddle-ball",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "label": "",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tennis",
+                            "text": "Regular tennis player who values strategy, precision, and continuous improvement both on and off the court."
+                        },
+                        "fr": {
+                            "title": "Tennis",
+                            "text": "Joueur de tennis régulier qui valorise la stratégie, la précision et l'amélioration continue sur le court et en dehors."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "label": "",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Video Games",
+                            "text": "Avid gamer with a particular interest in game design, mechanics analysis, and understanding player experience."
+                        },
+                        "fr": {
+                            "title": "Jeux Vidéo",
+                            "text": "Joueur passionné avec un intérêt particulier pour le game design, l'analyse des mécaniques et la compréhension de l'expérience joueur."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-book-open",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "label": "",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Light Novels",
+                            "text": "Enthusiastic reader of light novels, appreciating creative storytelling and narrative structures from different cultures."
+                        },
+                        "fr": {
+                            "title": "Light Novels",
+                            "text": "Lecteur enthousiaste de light novels, appréciant la créativité narrative et les structures de récit de différentes cultures."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-flask",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "label": "",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Science & AI",
+                            "text": "Fascinated by scientific discoveries, artificial intelligence, and the future of technology in society."
+                        },
+                        "fr": {
+                            "title": "Science & IA",
+                            "text": "Fasciné par les découvertes scientifiques, l'intelligence artificielle et le futur de la technologie dans la société."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-puzzle-piece",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "label": "",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Problem Solving",
+                            "text": "Enjoy tackling complex challenges through algorithmic thinking, coding competitions, and creative solution design."
+                        },
+                        "fr": {
+                            "title": "Résolution de Problèmes",
+                            "text": "Apprécie relever des défis complexes via la pensée algorithmique, les compétitions de code et la conception de solutions créatives."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

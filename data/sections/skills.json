@@ -1,0 +1,698 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "My Technical",
+                "title_long": "{{Skills}}"
+            },
+            "fr": {
+                "title_short": "Compétences",
+                "title_short_nav": "Compétences",
+                "title_long_prefix": "Mes Compétences",
+                "title_long": "{{Techniques}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "date": {},
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Analytical}} Thinking",
+                            "text": "Analytical and logical mindset with strong problem-solving capabilities."
+                        },
+                        "fr": {
+                            "title": "Esprit {{Analytique}}",
+                            "text": "Esprit analytique et logique avec de solides capacités de résolution de problèmes."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-user-clock",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "date": {},
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Autonomy & {{Organization}}",
+                            "text": "Self-sufficient and organized, with excellent time management and task prioritization skills."
+                        },
+                        "fr": {
+                            "title": "Autonomie & {{Organisation}}",
+                            "text": "Autonome et organisé, avec d'excellentes compétences en gestion du temps et priorisation des tâches."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-lightbulb",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "date": {},
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Creativity & {{Innovation}}",
+                            "text": "Curious and committed to continuous learning, with creative and innovative technical solutions."
+                        },
+                        "fr": {
+                            "title": "Créativité & {{Innovation}}",
+                            "text": "Curieux et engagé dans l'apprentissage continu, avec des solutions techniques créatives et innovantes."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-people-group",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "date": {},
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Team {{Collaboration}}",
+                            "text": "Effective teamwork and collaboration, with critical thinking and efficient communication."
+                        },
+                        "fr": {
+                            "title": "Travail d'{{Équipe}}",
+                            "text": "Travail en équipe et collaboration efficace, avec esprit critique et communication efficiente."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gears",
+                    "faIconColors": {
+                        "bg": "#266693",
+                        "bgLight": "#3689ad",
+                        "fill": "#FFF",
+                        "fillLight": "#FFF"
+                    },
+                    "date": {},
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Problem {{Solving}}",
+                            "text": "Strong critical thinking and systematic approach to solving complex technical challenges."
+                        },
+                        "fr": {
+                            "title": "Résolution de {{Problèmes}}",
+                            "text": "Esprit critique développé et approche systématique pour résoudre des défis techniques complexes."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "{{Backend}} & Languages"
+                },
+                "fr": {
+                    "title": "{{Backend}} & Langages"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#007396"
+                    },
+                    "date": {},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "Proficient in Java for robust backend development and enterprise applications.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "Java",
+                            "text": "Compétent en Java pour le développement backend robuste et les applications d'entreprise.",
+                            "level": "Avancé"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#6DB33F"
+                    },
+                    "date": {},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Spring Boot",
+                            "text": "Expertise in Spring Boot for building enterprise-grade Java applications and RESTful APIs.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "Spring Boot",
+                            "text": "Expertise en Spring Boot pour construire des applications Java d'entreprise et des APIs RESTful.",
+                            "level": "Avancé"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3178C6"
+                    },
+                    "date": {},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "text": "Experienced in TypeScript for type-safe web development and full-stack applications.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "TypeScript",
+                            "text": "Expérimenté en TypeScript pour le développement web typé et les applications full-stack.",
+                            "level": "Avancé"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3776AB"
+                    },
+                    "date": {},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Skilled in Python for scripting, data analysis, and backend development.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "Python",
+                            "text": "Compétent en Python pour le scripting, l'analyse de données et le développement backend.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gear",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#00599C"
+                    },
+                    "date": {},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "C++",
+                            "text": "Knowledge of C++ for system programming and performance-critical applications.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "C++",
+                            "text": "Connaissance du C++ pour la programmation système et les applications critiques en performance.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "{{Frameworks}} & Frontend"
+                },
+                "fr": {
+                    "title": "{{Frameworks}} & Frontend"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-angular",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#DD0031"
+                    },
+                    "date": {},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Angular",
+                            "text": "Proficient in Angular for building dynamic single-page applications and complex frontends.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "Angular",
+                            "text": "Compétent en Angular pour développer des applications monopages dynamiques et des frontends complexes.",
+                            "level": "Avancé"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-mobile",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3880FF"
+                    },
+                    "date": {},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Ionic",
+                            "text": "Experienced in Ionic for cross-platform mobile application development.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "Ionic",
+                            "text": "Expérimenté en Ionic pour le développement d'applications mobiles multiplateformes.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB"
+                    },
+                    "date": {},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Knowledgeable in React for building user interfaces and single-page applications.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "React",
+                            "text": "Connaissance de React pour la création d'interfaces utilisateur et d'applications monopages.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "{{Databases}} & DevOps"
+                },
+                "fr": {
+                    "title": "{{Bases de Données}} & DevOps"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4479A1"
+                    },
+                    "date": {},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "text": "Proficient in MySQL for relational database design, optimization, and management.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "MySQL",
+                            "text": "Compétent en MySQL pour la conception, l'optimisation et la gestion de bases de données relationnelles.",
+                            "level": "Avancé"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#FFCA28"
+                    },
+                    "date": {},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Firebase",
+                            "text": "Experience with Firebase for real-time databases, authentication, and cloud services.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "Firebase",
+                            "text": "Expérience avec Firebase pour les bases de données temps réel, l'authentification et les services cloud.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#2496ED"
+                    },
+                    "date": {},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "Skilled in Docker for containerization, deployment, and environment consistency.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "Docker",
+                            "text": "Compétent en Docker pour la conteneurisation, le déploiement et la cohérence des environnements.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F05032"
+                    },
+                    "date": {},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Git / GitLab",
+                            "text": "Proficient in Git version control and GitLab CI/CD for automated workflows.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "Git / GitLab",
+                            "text": "Compétent en contrôle de version Git et GitLab CI/CD pour les workflows automatisés.",
+                            "level": "Avancé"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "{{Tools}} & Methods"
+                },
+                "fr": {
+                    "title": "{{Outils}} & Méthodologies"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#5D21D2"
+                    },
+                    "date": {},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "UML / Design",
+                            "text": "Experienced in UML modeling and software design patterns for scalable architectures.",
+                            "level": "Advanced"
+                        },
+                        "fr": {
+                            "title": "UML / Conception",
+                            "text": "Expérimenté en modélisation UML et patterns de conception pour des architectures évolutives.",
+                            "level": "Avancé"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-vial",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#25C75F"
+                    },
+                    "date": {},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "JUnit",
+                            "text": "Proficient in JUnit for unit testing and ensuring code quality in Java applications.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "JUnit",
+                            "text": "Compétent en JUnit pour les tests unitaires et l'assurance qualité du code dans les applications Java.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#FF6C37"
+                    },
+                    "date": {},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Postman",
+                            "text": "Skilled in Postman for API testing, documentation, and development workflows.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "Postman",
+                            "text": "Compétent en Postman pour les tests d'API, la documentation et les workflows de développement.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#0080FF"
+                    },
+                    "date": {},
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "Cloud Platforms",
+                            "text": "Experience with Digital Ocean and Vercel for deployment and cloud infrastructure.",
+                            "level": "Intermediate"
+                        },
+                        "fr": {
+                            "title": "Platformes Cloud",
+                            "text": "Expérience avec Digital Ocean et Vercel pour le déploiement et l'infrastructure cloud.",
+                            "level": "Intermédiaire"
+                        }
+                    }
+                }
+            ]
+        },
+         {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "fr": {
+                    "title": "Langues"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-uk.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "percentage": null,
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "B2 Toiec Certified",
+                            "level": "Fluent"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": "Certifié Toiec B2",
+                            "level": "Courant"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/fr.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "bgLight": "",
+                        "fill": "",
+                        "fillLight": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "percentage": null,
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "French",
+                            "text": "Native Speaker",
+                            "level": "Native"
+                        },
+                        "fr": {
+                            "title": "Français",
+                            "text": "Langue Maternelle",
+                            "level": "Natif"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
