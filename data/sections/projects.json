@@ -58,7 +58,7 @@
                         "links": [
                             {
                                 "href": "https://gitlab.com/transvesral-project_group-1/isi4-transversalproject-gp1",
-                                "tooltipString": "Voir le code source",
+                                "tooltipString": "code",
                                 "faIcon": "fa-brands fa-github"
                             }
                         ],
@@ -109,7 +109,7 @@
                         "links": [
                             {
                                 "href": "https://plagiarismhecker.vercel.app/",
-                                "tooltipString": "Voir la démo",
+                                "tooltipString": "demo",
                                 "faIcon": "fa-solid fa-external-link"
                             }
                         ],
@@ -160,7 +160,7 @@
                         "links": [
                             {
                                 "href": "https://github.com/Youmbi-yvan4/login-signup-ionic/tree/master",
-                                "tooltipString": "Voir le code source",
+                                "tooltipString": "code",
                                 "faIcon": "fa-brands fa-github"
                             }
                         ],
@@ -211,7 +211,7 @@
                         "links": [
                             {
                                 "href": "https://github.com/Youmbi-yvan4/Archi-web-Project",
-                                "tooltipString": "Voir le code source",
+                                "tooltipString": "code",
                                 "faIcon": "fa-brands fa-github"
                             }
                         ],
@@ -257,7 +257,7 @@
                         "links": [
                             {
                                 "href": "https://github.com/Frederic311/isi4-dev-mobile-gpe2-personal_fitness_app",
-                                "tooltipString": "Voir le code source",
+                                "tooltipString": "code",
                                 "faIcon": "fa-brands fa-github"
                             }
                         ],
@@ -312,7 +312,7 @@
                         "links": [
                             {
                                 "href": "https://gitlab.com/gp23123508/appweb-events-management-gp2-project",
-                                "tooltipString": "Voir le code source",
+                                "tooltipString": "code",
                                 "faIcon": "fa-brands fa-github"
                             }
                         ],
