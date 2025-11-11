@@ -41,7 +41,7 @@
             "dateEnd": {"now": true},
             "locales": {
                 "en": {
-                    "title": " Exchange {{student}} program in Software Engineering",
+                    "title": "{{International}} Exchange Program ",
                     "province": "Auvergne-Rhône-Alpes",
                     "country": "France",
                     "institution": "INP ISIMA Clermont-Ferrand",
@@ -62,7 +62,7 @@
                     ]
                 },
                 "fr": {
-                    "title": "Programme d'échange {{étudiant}} en Génie Logiciel",
+                    "title": "Programme d'échange {{international}}",
                     "province": "Auvergne-Rhône-Alpes",
                     "country": "France",
                     "institution": "INP ISIMA Clermont-Ferrand",
