@@ -112,7 +112,7 @@ function ItemPreviewMenuGalleryButton({ itemWrapper }) {
             <CircularButton variant={CircularButton.Variants.DARK}
                             size={CircularButton.Sizes.EXTRA_EXTRA_LARGE}
                             className={`article-item-preview-menu-circular-button`}
-                            tooltip={language.getString("open_gallery")}
+                            tooltip={language.getString("apercu")}
                             faIcon={`fa-solid fa-camera`}/>
         </Link>
     )
