@@ -216,7 +216,7 @@ const jProfilePath = "public/data/profile.json"
 jsonUtils.update(jProfilePath, {
     name: "John Doe",
 
-    profilePictureUrl: "images/pictures/pfp.png",
+    profilePictureUrl: "images/pictures/pfp.jpg",
     resumePdfUrl: "",
 
     statusCircleVisible: true,

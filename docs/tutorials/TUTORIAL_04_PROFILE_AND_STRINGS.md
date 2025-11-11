@@ -12,7 +12,7 @@ It includes both **static fields** (which stay the same across all languages) an
 | Property                   | Type     | Required? | Description                                                                                                                 |
 |----------------------------|----------|-----------|-----------------------------------------------------------------------------------------------------------------------------|
 | `name`                     | STRING   | REQUIRED  | Your name.                                                                                                                  |
-| `profilePictureUrl`        | STRING   | REQUIRED  | Path to your profile picture. The path is relative to the `public` folder (e.g. `images/pictures/pfp.png`).                 |
+| `profilePictureUrl`        | STRING   | REQUIRED  | Path to your profile picture. The path is relative to the `public` folder (e.g. `images/pictures/pfp.jpg`).                 |
 | `resumePdfUrl`             | STRING   | OPTIONAL  | A direct link to your resume in PDF format. If provided, a button will appear on the sidebar allowing users to download it. |
 | `statusCircleVisible`      | BOOLEAN  | REQUIRED  | Indicates whether a small status circle should appear next to your profile picture.                                         |
 | `statusCircleVariant`      | STRING   | REQUIRED  | Your availability status. Must be one of: `available`, `busy`, or `unavailable`.                                            |
